@@ -2,7 +2,7 @@
   --logo: #2196f3;
   --text: #212121;
   --title: #ffffff;
-  --connection: #757575;
+  --main-text-color: #757575;
 }
 
 body {
@@ -21,30 +21,39 @@ body {
   font-family: Raleway;
   color: #000;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-first {
   font-family: Raleway;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 .logo-second-w {
   font-family: Raleway;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 .list {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.33;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text);
 }
 
 .connect {
-  color: var(--connection);
+  color: var(--main-text-color);
 }
 
 .item:hover,
@@ -106,7 +115,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .photo {
@@ -141,7 +150,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .project {
@@ -156,7 +165,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--connection);
+  color: var(--main-text-color);
 }
 
 /*------------FOOTER------------*/
